@@ -1,10 +1,10 @@
 # Paysafe checkout with saved card flow
 
-## DEMO link
+## DEMO
 
 Use same email id to use last saved card
 
-http://ec2-52-66-87-254.ap-south-1.compute.amazonaws.com/
+Link: http://ec2-52-66-87-254.ap-south-1.compute.amazonaws.com/
 
 ## Backend
 
