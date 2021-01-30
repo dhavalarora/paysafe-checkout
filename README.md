@@ -1,6 +1,6 @@
 # Paysafe checkout with saved card flow
 
-## DEMO
+## Demo
 
 Use same email id to use last saved card
 
