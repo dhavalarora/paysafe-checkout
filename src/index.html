@@ -1,13 +1,33 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>ROIIMPaysafe</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/styles.css" rel="stylesheet" />
+  <script src="https://hosted.paysafe.com/checkout/v2/paysafe.checkout.min.js" async></script>
 </head>
+
 <body>
-  <app-root></app-root>
+  <app-root>
+    Loading...
+  </app-root>
 </body>
+<script>
+  function checkout() {
+    paysafe.checkout.setup("API Key", {
+
+    });
+  }
+</script>
+
 </html>
