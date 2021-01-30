@@ -8,7 +8,7 @@ Link: http://ec2-52-66-87-254.ap-south-1.compute.amazonaws.com/
 
 ## Backend
 
-Serverless backend using AWS Lambda + API Gateway + Dynamo DB
+Serverless backend using `AWS Lambda` + `API Gateway` + `Dynamo DB`
 
 
 ## Development Info
