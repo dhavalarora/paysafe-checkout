@@ -1,4 +1,15 @@
-# ROIIMPaysafe
+# Paysafe checkout with saved card flow
+
+## DEMO link
+
+http://ec2-52-66-87-254.ap-south-1.compute.amazonaws.com/
+
+## Backend
+
+Serverless backend using AWS Lambda + API Gateway + Dynamo DB
+
+
+## Development Info
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
